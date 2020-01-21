@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>MatrisJS</title>
+
+        <link href="style/bootstrap.min.css" rel="stylesheet"/>
+        <link href="style/style.css" rel="stylesheet"/>
+        <script src="jscript/jquery-3.3.1.min.js"></script>
+        <script src="jscript/script.js"></script>
+    </head>
+<body>
+    <main role="main">
+        <ul class="nav">
+            <li class="nav-item">
+                <div class="form-group">
+                    Satır : <input type="number" name="satir" min="1" max="100" value="2"/>
+                </div>
+            </li>
+            <li>&nbsp;&nbsp;&nbsp;</li>
+            <li class="nav-item">
+                <div class="form-group">
+                    Sütun : <input type="number" name="sutun" min="1" max="100" value="2"/>
+                </div>
+            </li>
+            <li>&nbsp;&nbsp;&nbsp;</li>
+            <li class="nav-item">
+                <div class="form-group">
+                    Kaç tane? : <input type="number" name="mt_adet" min="1" max="100" value="1"/>
+                </div>
+            </li>
+            <li>&nbsp;&nbsp;&nbsp;</li>
+            <li class="nav-item">
+                <div class="form-group">
+                    Örnek veri ekle : <input type="checkbox" name="ornek" class="form-control" checked/>
+                </div>
+            </li>
+            <li>&nbsp;&nbsp;&nbsp;</li>
+            <li class="nav-item">
+                <button class="btn btn-info btn-sm" name="olustur_btn">Matris Ekle</button>
+            </li>
+        </ul>
+
+        <div class="content">
+            <div class="matris">
+                
+            </div>
+
+            <div class="calc-tool">
+                <div class="form-group">
+                    Toplama : <input type="radio" name="islem" value="t" checked/>
+                    &nbsp;&nbsp;<span class="seperator">|</span>&nbsp;&nbsp;
+                    Çıkarma : <input type="radio" name="islem" value="c"/>
+                    &nbsp;&nbsp;<span class="seperator">|</span>&nbsp;&nbsp;
+                    Çarpma : <input type="radio" name="islem" value="cp"/>
+                    &nbsp;&nbsp;<span class="seperator">|</span>&nbsp;&nbsp;
+                    Determinant : <input type="radio" name="islem" value="det"/>
+                    &nbsp;&nbsp;<span class="seperator">|</span>&nbsp;&nbsp;
+                    Transpoz : <input type="radio" name="islem" value="tp"/>
+                    &nbsp;&nbsp;<span class="seperator">|</span>&nbsp;&nbsp;
+                    Tersini Al : <input type="radio" name="islem" value="r"/>
+                    &nbsp;&nbsp;<span class="seperator">|</span>&nbsp;&nbsp;
+                    <button class="btn btn-info btn-sm" onclick="hesapla()">Hesapla</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

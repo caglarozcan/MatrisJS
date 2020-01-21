@@ -1,0 +1,198 @@
+input{
+    outline: 0 !important;
+}
+
+body{
+    background:#fcfcfc;
+}
+
+main{
+    background:#FFF;
+    width:80%;
+    margin:20px auto;
+    border-radius: 5px;
+    border:1px solid #dedede;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+
+.content{
+    padding:10px 0 0 0;
+    width:100%;
+    border-top:1px solid #dedede;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background:url(../images/square.png);
+}
+
+.nav{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background:#f8f8f8;
+}
+
+.nav li{
+    padding:8px 5px;
+}
+
+.form-group{
+    margin: 0 !important;
+}
+
+.nav input[type=text], .nav select, .nav input[type=number]{
+    width:100px;
+    display: inline-block !important;
+    padding:2px !important;
+    height: auto;
+}
+
+.nav input[type=checkbox]{
+    width:15px;
+    height:15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.matris{
+    padding:5px 8px;
+}
+
+.mt_cell{
+    width:40px;
+    display: inline-block;
+    margin:3px;
+    padding:5px 2px;
+    text-align: center;
+}
+
+.mt_data{
+    list-style-type: none;
+    background: rgba(0,0,0,0.035);
+    display: inline-block;
+    padding:0;
+    margin-right:8px;
+    vertical-align: middle;
+}
+
+.mt_data li{
+    padding: 0 5px;
+    border-left: 2px solid #CCC;
+    border-right: 2px solid #CCC;
+}
+
+.mt_data li:first-child{
+    padding-top:5px;
+    background:url(../images/mt-bottom.png) top left no-repeat,  url(../images/mt-bottom.png) top right no-repeat;
+}
+
+.mt_data li:last-child{
+    padding-bottom:5px;
+    background:url(../images/mt-bottom.png) bottom left no-repeat,  url(../images/mt-bottom.png) bottom right no-repeat;
+}
+
+.esittir{
+    display: inline-block;
+    vertical-align: middle;
+    padding:5px 15px 15px 10px;
+    text-align: center;
+}
+
+.calc-tool{
+    display: inline-block;
+    width:100%;
+    padding:10px;
+    background:#f8f8f8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    vertical-align: bottom;
+    border-top:1px solid #dedede;
+}
+
+.seperator{
+    color:#ccc;
+}
+
+input[type=checkbox] {
+	font-size: 14px;
+	position: relative;
+	border: 1px solid #bababa;
+	display: inline-block;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	width: 1em;
+	height: 1em;
+	vertical-align: text-top;
+	background: #FFFFFF;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	outline: 0;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.095);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.095);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+	input[type=checkbox]:checked::after {
+		position: absolute;
+		content: '';
+		left: 2px;
+		top: 2px;
+		height: 9px;
+		width: 9px;
+		border: none;
+		background: #0d74bb;
+		border-radius: 2px;
+	}
+
+input[type=radio] {
+	font-size: 14px;
+	position: relative;
+	border: 1px solid #bababa;
+	display: inline-block;
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+	width: 15px;
+	height: 15px;
+	vertical-align: text-top;
+	background: #FFFFFF;
+	-webkit-appearance: none;
+	-webkit-border-radius: 7px;
+	outline: 0;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.095);
+	box-shadow: inset 0 1px 3px rgba(0,0,0,.095);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-top:6px;
+    border-radius: 7px;
+}
+
+	input[type=radio]:checked::after {
+		position: absolute;
+		content: '';
+		width: 9px;
+		height: 9px;
+		background: #0d74bb;
+		border-radius: 5px;
+		top: 2px;
+		left: 2px;
+    }
+
+.sil{
+    float:right;
+    width:15px;
+    height: 15px;
+    margin-top:-17px;
+    cursor: pointer;
+    background: url(../images/delete.png) no-repeat;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+
+.matris_container{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:15px;
+}
